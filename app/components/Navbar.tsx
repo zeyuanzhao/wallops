@@ -4,9 +4,9 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const AppNavbar = () => {
   return (
-    <Navbar>
+    <Navbar className="dark:bg-gray-800">
       <NavbarBrand>
-        <p className="font-bold text-inherit">Wallops</p>
+        <p className="font-bold text-inherit dark:text-white">Wallops</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
