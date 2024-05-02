@@ -1,37 +1,54 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  Link,
+  Button,
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+} from "@nextui-org/react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
+import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri";
 
 const AppNavbar = () => {
   return (
-    <Navbar className="dark:bg-gray-800">
+    <Navbar className="bg-background" shouldHideOnScroll>
       <NavbarBrand>
         <p className="font-bold text-inherit dark:text-white">Wallops</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
+          <Link color="foreground" href="/days/1">
+            Wednesday
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+          <Link color="foreground" href="/days/2">
+            Thursday
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="/days/3">
+            Friday
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="/days/4">
+            Saturday
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-            <ThemeSwitcher></ThemeSwitcher>
+          <ThemeSwitcher></ThemeSwitcher>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
   );
-}
+};
 
 export default AppNavbar;

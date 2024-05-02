@@ -18,11 +18,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className='dark'>
+    <html lang="en" className=''>
       <body className={inter.className}>
         <Providers>
           <AppNavbar />
-          {children}
+          <main className="pt-8 px-12 h-screen">
+            {children}
+          </main>
         </Providers>
       </body>
     </html>
