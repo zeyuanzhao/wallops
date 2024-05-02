@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <AppNavbar />
-          <main className="pt-8 px-12 h-screen">
+          <main className="h-screen">
             {children}
           </main>
         </Providers>

@@ -16,9 +16,11 @@ import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri";
 
 const AppNavbar = () => {
   return (
-    <Navbar className="bg-background" shouldHideOnScroll>
+    <Navbar className="bg-transparent fixed" shouldHideOnScroll>
       <NavbarBrand>
-        <p className="font-bold text-inherit dark:text-white">Wallops</p>
+        <Link color="foreground" href="/">
+          <p className="font-bold text-inherit dark:text-white">Wallops</p>
+        </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
