@@ -32,15 +32,66 @@ export default function Home() {
           </motion.div>
         </div>
       </div>
-      <div>
-        <div className="grid grid-cols-2">
-          <div className="grid grid-rows-2">
-            <div className="bg-blue-500 w-72 h-72 p-4 border-4 border-slate-950 text-3xl">1</div>
-            <div className="bg-blue-500 w-72 h-72 p-4 border-4 border-slate-950 text-3xl">2</div>
-            <div className="bg-blue-500 w-72 h-72 p-4 border-4 border-slate-950 text-3xl">2</div>
-            <div className="bg-blue-500 w-72 h-72 p-4 border-4 border-slate-950 text-3xl">2</div>
-            <div className="bg-blue-500 w-72 h-72 p-4 border-4 border-slate-950 text-3xl">2</div>
-
+      <div className="px-12 py-12 h-screen">
+        <div className="w-5/6 mx-auto">
+          <h1 className="text-5xl mb-12">Days at Wallops</h1>
+          <div className="grid grid-cols-3 grid-rows-2 gap-4 h-[512px]">
+            <Card className="">
+              <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                <p className="text-md text-white/60 uppercase font-bold">
+                  Day 1
+                </p>
+                <h4 className="text-white font-medium text-3xl">Wednesday</h4>
+              </CardHeader>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover"
+                src="https://nextui.org/images/card-example-4.jpeg"
+              />
+            </Card>
+            <Card className="">
+              <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                <p className="text-md text-white/60 uppercase font-bold">
+                  Day 2
+                </p>
+                <h4 className="text-white font-medium text-3xl">Thursday</h4>
+              </CardHeader>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover"
+                src="https://nextui.org/images/card-example-4.jpeg"
+              />
+            </Card>
+            <Card className="col-span-2 col-start-1 row-start-2">
+              <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                <p className="text-md text-white/60 uppercase font-bold">
+                  Day 3
+                </p>
+                <h4 className="text-white font-medium text-3xl">Friday</h4>
+              </CardHeader>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover"
+                src="https://nextui.org/images/card-example-4.jpeg"
+              />
+            </Card>
+            <Card className="row-span-2 col-start-3 row-start-1">
+              <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                <p className="text-md text-white/60 uppercase font-bold">
+                  Day 4
+                </p>
+                <h4 className="text-white font-medium text-3xl">Saturday</h4>
+              </CardHeader>
+              <Image
+                removeWrapper
+                alt="Card background"
+                className="z-0 w-full h-full object-cover"
+                src="https://nextui.org/images/card-example-4.jpeg"
+              />
+            </Card>
           </div>
         </div>
       </div>
