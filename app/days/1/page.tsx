@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function DayOne() {
   return (
-    <div>
-      <h1 className="text-center text-5xl">Wednesday</h1>
+    <div className="px-12 pt-24 pb-12">
+      <h1 className="text-center text-5xl mb-12">Wednesday</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi
