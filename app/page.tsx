@@ -1,5 +1,5 @@
 "use client";
-import { Button, Card, CardFooter, CardHeader, Image } from "@nextui-org/react";
+import { Button, Card, CardFooter, CardHeader, Image, Link } from "@nextui-org/react";
 import { motion, Variants } from "framer-motion";
 
 export default function Home() {
@@ -36,8 +36,8 @@ export default function Home() {
         <div className="w-5/6 mx-auto">
           <h1 className="text-5xl mb-12">Days at Wallops</h1>
           <div className="grid grid-cols-3 grid-rows-2 gap-4 h-[512px]">
-            <Card className="">
-              <a href="/days/1" className="">
+            <Link href="days/1" className="flex flex-col">
+              <Card className="w-full h-full">
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                   <p className="text-md text-white/60 uppercase font-bold">
                     Day 1
@@ -50,10 +50,10 @@ export default function Home() {
                   className="z-0 w-full h-full object-cover"
                   src="https://nextui.org/images/card-example-4.jpeg"
                 />
-              </a>
-            </Card>
-            <Card className="">
-              <a href="days/2">
+              </Card>
+            </Link>
+            <Link href="days/2" className="flex flex-col">
+              <Card className="w-full h-full">
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                   <p className="text-md text-white/60 uppercase font-bold">
                     Day 2
@@ -66,10 +66,10 @@ export default function Home() {
                   className="z-0 w-full h-full object-cover"
                   src="https://nextui.org/images/card-example-4.jpeg"
                 />
-              </a>
-            </Card>
-            <Card className="col-span-2 col-start-1 row-start-2">
-              <a href="days/3">
+              </Card>
+            </Link>
+            <Link href="days/3" className="flex flex-col col-span-2 col-start-1 row-start-2">
+              <Card className="w-full h-full">
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                   <p className="text-md text-white/60 uppercase font-bold">
                     Day 3
@@ -82,10 +82,10 @@ export default function Home() {
                   className="z-0 w-full h-full object-cover"
                   src="https://nextui.org/images/card-example-4.jpeg"
                 />
-              </a>
-            </Card>
-            <Card className="row-span-2 col-start-3 row-start-1">
-              <a href="days/4">
+              </Card>
+            </Link>
+            <Link href="days/4" className="flex flex-col row-span-2 col-start-3 row-start-1">
+              <Card className="w-full h-full">
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                   <p className="text-md text-white/60 uppercase font-bold">
                     Day 4
@@ -98,8 +98,8 @@ export default function Home() {
                   className="z-0 w-full h-full object-cover"
                   src="https://nextui.org/images/card-example-4.jpeg"
                 />
-              </a>
-            </Card>
+              </Card>
+            </Link>
           </div>
         </div>
       </div>
