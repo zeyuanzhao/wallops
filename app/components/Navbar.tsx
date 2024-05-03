@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Navbar,
@@ -13,10 +14,32 @@ import {
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri";
+import { motion, Variants } from "framer-motion";
 
 const AppNavbar = () => {
+  const variants: Variants = {
+    hide: {
+      opacity: 0,
+      y: -15,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+  const MotionNavbar = motion(Navbar);
   return (
-    <Navbar className="bg-transparent fixed" shouldHideOnScroll>
+    <MotionNavbar
+      className="bg-transparent fixed"
+      shouldHideOnScroll
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={variants}
+    >
       <NavbarBrand>
         <Link color="foreground" href="/">
           <p className="font-bold text-inherit dark:text-white">Wallops</p>
@@ -49,7 +72,7 @@ const AppNavbar = () => {
           <ThemeSwitcher></ThemeSwitcher>
         </NavbarItem>
       </NavbarContent>
-    </Navbar>
+    </MotionNavbar>
   );
 };
 

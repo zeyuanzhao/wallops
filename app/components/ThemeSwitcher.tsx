@@ -19,11 +19,11 @@ export function ThemeSwitcher() {
   return (
     <span>
       {theme === "light" ? (
-        <Button onClick={() => setTheme("dark")} isIconOnly>
+        <Button onClick={() => setTheme("dark")} isIconOnly className="bg-background/10">
           <CiLight size="2rem" />
         </Button>
       ) : (
-        <Button onClick={() => setTheme("light")} isIconOnly>
+        <Button onClick={() => setTheme("light")} isIconOnly className="bg-background/10">
           <CiDark size="2rem" />
         </Button>
       )}
