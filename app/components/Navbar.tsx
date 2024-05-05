@@ -68,6 +68,9 @@ const AppNavbar = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
+        <Link color="foreground" href="/about">
+          About
+        </Link>
         <NavbarItem>
           <ThemeSwitcher></ThemeSwitcher>
         </NavbarItem>
