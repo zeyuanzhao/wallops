@@ -6,7 +6,7 @@ export default function About() {
       <div className="pl-8">
         <h1 className="text-center text-5xl mb-12">About</h1>
         <p>
-          This website is a guide and recap of the Blair Magnet Class of '26
+          This website is a guide and recap of the Blair Magnet Class of &apos;26
           Wallops Trip.
         </p>
         <h2 className="mt-4 mb-2 text-2xl">Credits: </h2>
