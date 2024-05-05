@@ -8,12 +8,13 @@ import {
   Link,
 } from "@nextui-org/react";
 import { motion, Variants } from "framer-motion";
+import { IoChevronDownCircleOutline } from "react-icons/io5";
 
 export default function Home() {
   const variants: Variants = {
     hide: {
       opacity: 0,
-      y: -50,
+      y: -25,
     },
     show: {
       opacity: 1,
@@ -34,11 +35,20 @@ export default function Home() {
             exit="hide"
             variants={variants}
           >
-            <h1 className="text-center text-6xl text-background">Guide to Wallops Island</h1>
-            <h2 className="text-center text-4xl mt-4 text-background">April 17-20, 2024</h2>
-            <h2 className="text-center text-4xl mt-4 text-background">Montgomery Blair HS Magnet Class of 2026</h2>
+            <h1 className="text-center text-6xl text-background">
+              Guide to Wallops Island
+            </h1>
+            <h2 className="text-center text-4xl mt-4 text-background">
+              April 17-20, 2024
+            </h2>
+            <h2 className="text-center text-4xl mt-4 text-background">
+              Montgomery Blair HS Magnet Class of 2026
+            </h2>
           </motion.div>
         </div>
+        <motion.div className="mt-12 flex justify-center ">
+          <IoChevronDownCircleOutline className="size-16 opacity-90 text-white" />
+        </motion.div>
       </div>
       <div className="px-12 py-12 min-h-screen">
         <div className="w-5/6 mx-auto">
@@ -124,6 +134,7 @@ export default function Home() {
                 </CardHeader>
                 <Image
                   removeWrapper
+                  isZoomed
                   alt="Card background"
                   className="z-0 w-full h-full object-cover"
                   src="day1.jpg"
@@ -140,6 +151,7 @@ export default function Home() {
                 </CardHeader>
                 <Image
                   removeWrapper
+                  isZoomed
                   alt="Card background"
                   className="z-0 w-full h-full object-cover"
                   src="day2.jpg"
@@ -159,6 +171,7 @@ export default function Home() {
                 </CardHeader>
                 <Image
                   removeWrapper
+                  isZoomed
                   alt="Card background"
                   className="z-0 w-full h-full object-cover"
                   src="day3.jpg"
@@ -178,6 +191,7 @@ export default function Home() {
                 </CardHeader>
                 <Image
                   removeWrapper
+                  isZoomed
                   alt="Card background"
                   className="z-0 w-full h-full object-cover"
                   src="day4.jpg"
