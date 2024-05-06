@@ -13,6 +13,7 @@ export default function About() {
         <p>Alex Zhao</p>
         <p>Arjun Samavedam</p>
         <p>Mr. Ostrander - Intertidal Photo</p>
+        <p>Other Students - Various Photos</p>
         <h2 className="mt-4 mb-2 text-2xl">Tech Stack: </h2>
         <div className="flex gap-2">
           <Chip color="primary">Typescript</Chip>
