@@ -26,7 +26,7 @@ export default function DayThree() {
           <p>
             During the organism research cruise, we were able to collect data about water and organisms from the ocean.
             We collected water using a Van Dorn bottle to collect water samples from different depths. Using this collected water, we ran multiple tests to examine different properties about the water to evaluate the water health.
-            We looked at it's salinity, temperature, dissolved oxygen levels, and chemical levels. We also used a Secchi disk to measure the water's clarity. We recorded this data to analyze the health of the water and the organisms that live in it and contrast it with the other groups.
+            We looked at its salinity, temperature, dissolved oxygen levels, and chemical levels. We also used a Secchi disk to measure the waters clarity. We recorded this data to analyze the health of the water and the organisms that live in it and contrast it with the other groups.
             Lastly, with the instruction of our teacher we were able to collect a variety of organisms from the ocean using a trawl net. We collected a variety of organisms, including fish, shrimp, and turtles, to name a few.
           </p>
         </div>

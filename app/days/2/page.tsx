@@ -86,8 +86,8 @@ export default function DayTwo() {
           <h2 className="text-3xl mb-4">Organism Dissection</h2>
           <p>
             In the night, we conducted a lab where we were able to dissect a squid. By utilizing a variety of tools including scissors, scalpel, and others, were we able to extract and open up the squid.
-            We were able to take out the squid's beak, and creating incisions to examine the squid's internal organs. This lab was a great way to learn about the anatomy of a squid and how it functions.
-            We saw the squid's ink sac, gills, siphon, liver, stomach, gonad, and other organs.
+            We were able to take out the squids beak, and creating incisions to examine the squids internal organs. This lab was a great way to learn about the anatomy of a squid and how it functions.
+            We saw the squids ink sac, gills, siphon, liver, stomach, gonad, and other organs.
           </p>
         </div>
       </div>
