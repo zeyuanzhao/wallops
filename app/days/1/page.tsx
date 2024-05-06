@@ -13,13 +13,12 @@ export default function DayOne() {
             shadow="lg"
             alt=""
             className="z-1 w-full h-full object-cover"
-            src="../../group.jpg"
+            src="../../day1-1.jpg"
           />
 
           <div className="p-2">
             <h3 className="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Everyone on Bus #2, while Mr. Schwartz is making an announcement.
             </h3>
           </div>
         </div>
@@ -80,19 +79,18 @@ export default function DayOne() {
             with the same type, using only descriptions of touch.
           </p>
         </div>
-        <div className="pl-8 pt-16 flex flex-col gap-4 col-span-2">
+        <div className="pl-8 flex flex-col gap-4 col-span-2">
           <Image
             isZoomed
             shadow="lg"
             alt=""
             className="z-1 w-full h-full object-cover"
-            src="../../group.jpg"
+            src="../../day1-2.jpeg"
           />
 
           <div className="p-2">
             <h3 className="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Sunset outside of the trail. Devices were not allowed on the actual trail.
             </h3>
           </div>
         </div>
