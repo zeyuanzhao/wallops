@@ -54,32 +54,24 @@ export default function Home() {
         <div className="w-5/6 mx-auto">
           <h2 className="text-5xl mb-12">About Wallops</h2>
           <p className="mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu
-            cursus vitae congue mauris rhoncus aenean vel. Donec et odio
-            pellentesque diam. Urna porttitor rhoncus dolor purus non enim
-            praesent elementum facilisis. Arcu cursus vitae congue mauris. Ut
-            diam quam nulla porttitor massa id neque. Metus dictum at tempor
-            commodo ullamcorper a. Vel turpis nunc eget lorem dolor sed. Quisque
-            sagittis purus sit amet. Semper quis lectus nulla at volutpat diam.
-            Elementum sagittis vitae et leo.
+            Wallops Island is an annual Blair Magnet field trip to learn about
+            biology and marine ecosystems. The field trip is a 4-day trip to the
+            Chincoteague Bay Field Station in Wallops Island, Virginia.
+          </p>
+          <p className="mb-6">
+            Over the 4 days, we were able to go on excursions into the field,
+            including the intertidal trip and the research cruise ship. We also
+            had different labs where we disected squids, identified marine
+            invertebrates, and more.
           </p>
           <p className="mb-12">
-            Id leo in vitae turpis massa sed elementum. Diam vulputate ut
-            pharetra sit. Morbi quis commodo odio aenean sed adipiscing diam
-            donec. Ut etiam sit amet nisl. Sit amet nisl purus in mollis nunc.
-            Viverra justo nec ultrices dui sapien eget. Nec ullamcorper sit amet
-            risus nullam. Mattis aliquam faucibus purus in massa tempor. Pretium
-            fusce id velit ut tortor. In vitae turpis massa sed elementum tempus
-            egestas sed. Quam id leo in vitae turpis massa sed elementum tempus.
-            Lectus sit amet est placerat in.
+            This website contains information for each of the days at Wallops.
+            Scroll below to learn more.
           </p>
           <Link href="/about" underline="hover">
             <h2 className="text-3xl mb-4">About Website</h2>
           </Link>
-          <p>
-            Click to view credits and tech stack.
-          </p>
+          <p>Click to view credits and tech stack.</p>
         </div>
       </div>
       <div className="px-12 py-12 h-screen bg-[url('/lake.jpg')] bg-fixed">
