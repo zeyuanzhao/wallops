@@ -13,66 +13,38 @@ export default function DayTwo() {
             shadow="lg"
             alt=""
             className="z-1 w-full h-full object-cover"
-            src="../../group.jpg"
+            src="../../intertidal.jpg"
           />
 
           <div className="p-2">
             <h3 className="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Picture credit: Mr. Ostrander
             </h3>
           </div>
         </div>
-        <div className="col-span-3">
-          <h2 className="text-3xl mb-4">Activity</h2>
+        <div className="col-span-3 text-lg">
+          <h2 className="text-3xl mb-4">Intertidal</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu
-            cursus vitae congue mauris rhoncus aenean vel. Donec et odio
-            pellentesque diam. Urna porttitor rhoncus dolor purus non enim
-            praesent elementum facilisis. Arcu cursus vitae congue mauris. Ut
-            diam quam nulla porttitor massa id neque. Metus dictum at tempor
-            commodo ullamcorper a. Vel turpis nunc eget lorem dolor sed. Quisque
-            sagittis purus sit amet. Semper quis lectus nulla at volutpat diam.
-            Elementum sagittis vitae et leo.
-          </p>
-          <p>
-            Id leo in vitae turpis massa sed elementum. Diam vulputate ut
-            pharetra sit. Morbi quis commodo odio aenean sed adipiscing diam
-            donec. Ut etiam sit amet nisl. Sit amet nisl purus in mollis nunc.
-            Viverra justo nec ultrices dui sapien eget. Nec ullamcorper sit amet
-            risus nullam. Mattis aliquam faucibus purus in massa tempor. Pretium
-            fusce id velit ut tortor. In vitae turpis massa sed elementum tempus
-            egestas sed. Quam id leo in vitae turpis massa sed elementum tempus.
-            Lectus sit amet est placerat in.
+            In the intertidal zone, the water level changes with the tides. 
+            This area is home to a variety of organisms that have adapted to the changing conditions. 
+            Some of the organisms that live in the intertidal zone include barnacles, mussels, and seaweed. 
+            These organisms have developed different strategies to survive in this harsh environment. 
+            The intertidal zone is an important habitat for many marine species and plays a key role in the marine ecosystem.
+            In our exploration of the intertidal zone, we utilized various techniques to examine the different types of life that inhabit this area.
+            We explored the animals and plants in the supralittoral, littoral, and sublitoral zones using a quadrat. To further examine the vegetation and animals in the sublitoral zone, we used the box to collect organisms, which we would later use in our organism lab.
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-5 mt-8">
-        <div className="col-span-3">
-          <h2 className="text-3xl mb-4">Activity</h2>
+      <div className="grid grid-cols-5 mt-8 text-lg">
+        <div className="col-span-3 text-lg">
+          <h2 className="text-3xl mb-4">Marine Invertebrates</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu
-            cursus vitae congue mauris rhoncus aenean vel. Donec et odio
-            pellentesque diam. Urna porttitor rhoncus dolor purus non enim
-            praesent elementum facilisis. Arcu cursus vitae congue mauris. Ut
-            diam quam nulla porttitor massa id neque. Metus dictum at tempor
-            commodo ullamcorper a. Vel turpis nunc eget lorem dolor sed. Quisque
-            sagittis purus sit amet. Semper quis lectus nulla at volutpat diam.
-            Elementum sagittis vitae et leo.
+            In the afternoon, we arrived at a dock to collect marine invertebrates. We utilized nets to collect the organisms and plants near the dock. 
+            Through this, we were able to collect a variety of marine organisms, including sea sponge, shrimp, barnacles, and sea squirts, to name a few.
+            This process of collecting and identifying the marine invertebrates was a great way to learn about the different types of life that inhabit the marine environment, and prepared us for the later lab we would conduct.
           </p>
-          <p>
-            Id leo in vitae turpis massa sed elementum. Diam vulputate ut
-            pharetra sit. Morbi quis commodo odio aenean sed adipiscing diam
-            donec. Ut etiam sit amet nisl. Sit amet nisl purus in mollis nunc.
-            Viverra justo nec ultrices dui sapien eget. Nec ullamcorper sit amet
-            risus nullam. Mattis aliquam faucibus purus in massa tempor. Pretium
-            fusce id velit ut tortor. In vitae turpis massa sed elementum tempus
-            egestas sed. Quam id leo in vitae turpis massa sed elementum tempus.
-            Lectus sit amet est placerat in.
-          </p>
+          
         </div>
         <div className="pl-8 pt-16 flex flex-col gap-4 col-span-2">
           <Image
@@ -80,17 +52,34 @@ export default function DayTwo() {
             shadow="lg"
             alt=""
             className="z-1 w-full h-full object-cover"
-            src="../../group.jpg"
+            src="../../invertebrate.jpg"
           />
 
-          <div className="p-2">
-            <h3 className="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </h3>
-          </div>
+          
         </div>
       </div>
+
+      <div className="grid grid-cols-5 mt-8">
+        <div className="pr-8 pt-16 flex flex-col gap-4 col-span-2">
+          <Image
+            isZoomed
+            shadow="lg"
+            alt=""
+            className="z-1 w-full h-full object-cover"
+            src="../../dissection.jpg"
+          />
+
+        </div>
+        <div className="col-span-3 text-lg">
+          <h2 className="text-3xl mb-4">Organism Dissection</h2>
+          <p>
+            In the night, we conducted a lab where we were able to dissect a squid. By utilizing a variety of tools including scissors, scalpel, and others, were we able to extract and open up the squid.
+            We were able to take out the squid's beak, and creating incisions to examine the squid's internal organs. This lab was a great way to learn about the anatomy of a squid and how it functions.
+            We saw the squid's ink sac, gills, siphon, liver, stomach, gonad, and other organs.
+          </p>
+        </div>
+      </div>
+
     </div>
   );
 }
