@@ -13,82 +13,22 @@ export default function DayFour() {
             shadow="lg"
             alt=""
             className="z-1 w-full h-full object-cover"
-            src="../../group.jpg"
+            src="../../orglab.jpg"
           />
-
           <div className="p-2">
             <h3 className="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Students examining the microorganisms we collected via a microscope.
             </h3>
           </div>
         </div>
+        
         <div className="col-span-3">
-          <h2 className="text-3xl mb-4">Activity</h2>
+          <h2 className="text-3xl mb-4">Organism Lab</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu
-            cursus vitae congue mauris rhoncus aenean vel. Donec et odio
-            pellentesque diam. Urna porttitor rhoncus dolor purus non enim
-            praesent elementum facilisis. Arcu cursus vitae congue mauris. Ut
-            diam quam nulla porttitor massa id neque. Metus dictum at tempor
-            commodo ullamcorper a. Vel turpis nunc eget lorem dolor sed. Quisque
-            sagittis purus sit amet. Semper quis lectus nulla at volutpat diam.
-            Elementum sagittis vitae et leo.
+            We finished off our Wallops trip by conducting an organism lab with all of the organisms we had collected throughout our days. 
+            First, we looked at micro organisms like plankton under a microscope. We were able to record specific characteristics about them, such as their shape, size, and moving patterns. One of them looked like a centipede, while another looked like a jellyfish.
+            We also looked at the larger organisms we had collected, such as fish, shrimp, and turtles. Using species books detailing different types of organisms in the Atlantic Ocean area, we were able to identify the specie and scientific name of each of the organisms we had collected.
           </p>
-          <p>
-            Id leo in vitae turpis massa sed elementum. Diam vulputate ut
-            pharetra sit. Morbi quis commodo odio aenean sed adipiscing diam
-            donec. Ut etiam sit amet nisl. Sit amet nisl purus in mollis nunc.
-            Viverra justo nec ultrices dui sapien eget. Nec ullamcorper sit amet
-            risus nullam. Mattis aliquam faucibus purus in massa tempor. Pretium
-            fusce id velit ut tortor. In vitae turpis massa sed elementum tempus
-            egestas sed. Quam id leo in vitae turpis massa sed elementum tempus.
-            Lectus sit amet est placerat in.
-          </p>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-5 mt-8">
-        <div className="col-span-3">
-          <h2 className="text-3xl mb-4">Activity</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu
-            cursus vitae congue mauris rhoncus aenean vel. Donec et odio
-            pellentesque diam. Urna porttitor rhoncus dolor purus non enim
-            praesent elementum facilisis. Arcu cursus vitae congue mauris. Ut
-            diam quam nulla porttitor massa id neque. Metus dictum at tempor
-            commodo ullamcorper a. Vel turpis nunc eget lorem dolor sed. Quisque
-            sagittis purus sit amet. Semper quis lectus nulla at volutpat diam.
-            Elementum sagittis vitae et leo.
-          </p>
-          <p>
-            Id leo in vitae turpis massa sed elementum. Diam vulputate ut
-            pharetra sit. Morbi quis commodo odio aenean sed adipiscing diam
-            donec. Ut etiam sit amet nisl. Sit amet nisl purus in mollis nunc.
-            Viverra justo nec ultrices dui sapien eget. Nec ullamcorper sit amet
-            risus nullam. Mattis aliquam faucibus purus in massa tempor. Pretium
-            fusce id velit ut tortor. In vitae turpis massa sed elementum tempus
-            egestas sed. Quam id leo in vitae turpis massa sed elementum tempus.
-            Lectus sit amet est placerat in.
-          </p>
-        </div>
-        <div className="pl-8 pt-16 flex flex-col gap-4 col-span-2">
-          <Image
-            isZoomed
-            shadow="lg"
-            alt=""
-            className="z-1 w-full h-full object-cover"
-            src="../../group.jpg"
-          />
-
-          <div className="p-2">
-            <h3 className="text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </h3>
-          </div>
         </div>
       </div>
     </div>

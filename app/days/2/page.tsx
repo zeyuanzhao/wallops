@@ -18,6 +18,7 @@ export default function DayTwo() {
 
           <div className="p-2">
             <h3 className="text-sm">
+              Collecting organisms in the intertidal zone. <br />
               Picture credit: Mr. Ostrander
             </h3>
           </div>
@@ -55,6 +56,12 @@ export default function DayTwo() {
             src="../../invertebrate.jpg"
           />
 
+          <div className="p-2">
+            <h3 className="text-sm">
+              The dock where we collected marine invertebrates. 
+            </h3>
+          </div>
+
           
         </div>
       </div>
@@ -68,6 +75,11 @@ export default function DayTwo() {
             className="z-1 w-full h-full object-cover"
             src="../../dissection.jpg"
           />
+          <div className="p-2">
+            <h3 className="text-sm">
+              In the middle of dissecting a squid.
+            </h3>
+          </div>
 
         </div>
         <div className="col-span-3 text-lg">

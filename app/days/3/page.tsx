@@ -15,7 +15,11 @@ export default function DayThree() {
             className="z-1 w-full h-full object-cover"
             src="../../cruise.jpg"
           />
-
+          <div className="p-2">
+            <h3 className="text-sm">
+              Ms. Jorgenson and our teacher pulling up our deployed net, full of collected organisms.
+            </h3>
+          </div>
         </div>
         <div className="col-span-3 text-lg">
           <h2 className="text-3xl mb-4">Organism Research Cruise</h2>
@@ -43,6 +47,11 @@ export default function DayThree() {
             className="z-1 w-full h-full object-cover"
             src="../../dune.jpg"
           />
+          <div className="p-2">
+            <h3 className="text-sm">
+              Beach we visited on the barrier island, with dunes scattered.
+            </h3>
+          </div>
 
         </div>
       </div>
@@ -56,6 +65,11 @@ export default function DayThree() {
             className="z-1 w-full h-full object-cover"
             src="../../fun.jpg"
           />
+          <div className="p-2">
+            <h3 className="text-sm">
+              Survival with Schwartz group.
+            </h3>
+          </div>
 
         </div>
         <div className="col-span-3 text-lg">
