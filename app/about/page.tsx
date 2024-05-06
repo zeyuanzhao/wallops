@@ -12,8 +12,7 @@ export default function About() {
         <h2 className="mt-4 mb-2 text-2xl">Credits: </h2>
         <p>Alex Zhao</p>
         <p>Arjun Samavedam</p>
-        <p>Mr. Ostrander - Photos</p>
-        <p>Other people - Photos</p>
+        <p>Mr. Ostrander - Intertidal Photo</p>
         <h2 className="mt-4 mb-2 text-2xl">Tech Stack: </h2>
         <div className="flex gap-2">
           <Chip color="primary">Typescript</Chip>
